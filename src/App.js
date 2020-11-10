@@ -1,10 +1,10 @@
-import classes from './App.module.scss';
+import Layout from './layout/Layout';
 
 const App = () => {
 	return (
-		<div className={classes.App}>
-			<h1>Salut le monde</h1>
-		</div>
+		<Layout>
+			<h1>oui</h1>
+		</Layout>
 	);
 };
 
